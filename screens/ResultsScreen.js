@@ -55,6 +55,18 @@ const ResultsScreen = () => {
         <Text>(5/5)</Text>
       </View>
 
+      <View
+        style={{
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "space-between",
+          marginVertical: 5,
+        }}
+      >
+        <Text>Total Points Aqquired</Text>
+              <Text>{ route.params.points}</Text>
+      </View>
+
       <Pressable
         style={{
           backgroundColor: "white",
